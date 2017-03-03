@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "images/logo.png",
+    "link": "",
+    "text": "Kris, Stephanie, \u0026 Yishi"
+  },
+  "text": {
+    "more": "<center><b>Bottled Water Around The World</b></center><br><br>There is no global standard for categorizing water. For example, the term ‘mineral’ is often used with bottled water, but the definition of 'mineral water' differs greatly from country to country.<br> <br>In this data set, we look at the pH value, origin country, water source, and the way companies choose to brand the product. The connections between these data points help provide a new understanding to how we analyze and understand bottled water- the most basic product in everyday life.",
+    "intro": "Analyzing bottled water across the globe through pH, source, country of origin, and branding.",
+    "title": "Bottled Water Project"
+  },
+  "legend": {
+    "edgeLabel": "",
+    "colorLabel": "",
+    "nodeLabel": ""
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "category",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#2c2d31",
+      "defaultLabelBGColor": "#232427",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 100000,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 20
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
